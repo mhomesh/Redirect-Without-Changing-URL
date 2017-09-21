@@ -1,6 +1,5 @@
 <IfModule mod_rewrite.c>
-	RewriteEngine on
-
+  RewriteEngine on
   RewriteRule ^about-us$ aboutus.php
 
   # Rewrite URLs of the form 'x' to the form 'index.php?q=x'.
